@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>privet.ti</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <section class="main-section">
+    <img src="images/main.png" class="main-section__background">
+    <img src="images/main-mobile.png" class="main-section__background --mobile">
+
+    <div class="main-section__title">
+      Валерия<br/>
+      <span>Балабанова</span>
+    </div>
+
+    <div class="main-section__menu menu">
+      <div class="menu__links --hidden">
+        <a href="#portfolio" class="menu__link" onclick="onMenuClick()">Портфолио</a>
+        <a href="#about" class="menu__link" onclick="onMenuClick()">Обо мне</a>
+        <a href="#contacts" class="menu__link" onclick="onMenuClick()">Контакты</a>
+      </div>
+
+      <img src="images/icons/menu.svg" class="menu__button" onclick="onMenuClick()" />
+    </div>
+
+    <a href="#portfolio" class="main-section__button">
+      <div class="main-section__button-text">Портфолио</div>
+
+      <img src="images/icons/arrow.svg" class="main-section__button-arrow" />
+      <img src="images/icons/arrow-mobile.svg" class="main-section__button-arrow --mobile" />
+    </a>
+  </section>
+
+  <section id="portfolio" class="portfolio container">
+    <div class="section__title">Портфолио</div>
+
+    <div class="portfolio__body">
+      <div class="portfolio__section">
+        <img src="images/photos/1.png" class="--big" />
+        <img src="images/photos/2.png" />
+        <div class="portfolio__box --1"></div>
+      </div>
+
+      <div class="portfolio__section --centered">
+        <img src="images/photos/3.png" class="--centered" />
+      </div>
+
+      <div class="portfolio__section --even">
+        <img src="images/photos/4.png" />
+        <img src="images/photos/5.png" class="--big" />
+        <div class="portfolio__box --2"></div>
+      </div>
+
+      <div class="portfolio__section">
+        <img src="images/photos/6.png" class="--big" />
+        <img src="images/photos/7.png" />
+        <div class="portfolio__box --3"></div>
+      </div>
+
+      <div class="portfolio__section --full">
+        <img src="images/photos/8.png" class="--full" />
+        <hr>
+      </div>
+
+      <div class="portfolio__section --even">
+        <img src="images/photos/9.png" />
+        <img src="images/photos/10.png" class="--big" />
+        <div class="portfolio__box --4"></div>
+      </div>
+
+      <div class="portfolio__section">
+        <img src="images/photos/11.png" class="--big" />
+        <img src="images/photos/12.png" />
+        <div class="portfolio__box --5"></div>
+      </div>
+
+      <div class="portfolio__section --centered">
+        <img src="images/photos/13.png" class="--centered" />
+      </div>
+
+      <div class="portfolio__section --even">
+        <img src="images/photos/14.png" />
+        <img src="images/photos/15.png" class="--big" />
+        <div class="portfolio__box --6"></div>
+      </div>
+
+      <div class="portfolio__section">
+        <img src="images/photos/16.png" class="--big" />
+        <img src="images/photos/17.png" />
+        <div class="portfolio__box --7"></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="container">
+    <div class="section__title">Обо мне</div>
+
+    <div class="about">
+      <img src="images/about.png" class="about__side about__image" />
+
+      <div class="about__side about__text">
+        <p>Приветик! Я – Лера, снимаю картинки цветные и монохромные.</p>
+        <p>Моя профессиональная история началась в 2021, когда я впервые взяла Canon 250D и поняла, что, кажется, обрела дело всей жизни. После нескольких десятков съёмок-знакомств с техникой, я прошла курс основ фотокарточных у Аси Галактионовой, у феи картинок, в моём родном городе. После – ещё несколько онлайн-обучений по обработке фотографий, по свету, по работе с моделями, параллельно снимая непрерывно и оттачивая навык.</p>
+        <p>За моими плечами воркшопы по свету, которые проходили в моём родном городе, свадебный столичный воркшоп, организованный Дашей Андрицьо и ещё несколько крохотных обучений.</p>
+        <p>Меня вдохновляет красота деталей в кино, музыке, людях. Картинки Саши Масловой, Тима Уокера и Хельмута Ньютона поражают цветом и светом!</p>
+        <p>Сейчас я продолжаю посещать воркшопы и мастер-классы по фотографии, чтобы совершенствовать свои умелки.</p>
+      </div>
+    </div>
+
+    <hr class="about__line">
+  </section>
+
+  <section id="contacts" class="container">
+    <div class="section__title">Контакты</div>
+
+    <div class="contacts">
+      <div class="contacts__side">
+        <span class="contacts__item">г. Москва</span>
+        <span class="contacts__item">г. Орёл</span>
+      </div>
+
+      <div class="contacts__side">
+        <span class="contacts__item">privet.ti</span>
+        <span class="contacts__item">lera0b</span>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer container">
+    <div class="footer__logo">Валерия Балобанова</div>
+
+    <div class="footer__side footer__links">
+      <div class="footer__links-column">
+        <a href="#portfolio" class="footer__links-link">Портфолио</a>
+        <a href="#about" class="footer__links-link">Обо мне</a>
+        <a href="#contacts" class="footer__links-link">Контакты</a>
+      </div>
+
+      <div class="footer__links-column">
+        <a href="https://instagram.com/privet.ti" class="footer__links-link">previt.ti</a>
+        <a href="https://instagram.com/lera0b" class="footer__links-link">lera0b</a>
+      </div>
+
+      <div class="footer__links-column">
+        <a href="#" class="footer__links-link">Условия использования</a>
+        <a href="#" class="footer__links-link">Конфиденциальность</a>
+        <a href="#" class="footer__links-link">Условия и положения</a>
+      </div>
+    </div>
+
+    <div class="footer__copyright">2023 © Все права защищены правообладателем.</div>
+  </footer>
+
+  <script src="index.js"></script>
+</body>
+</html>
