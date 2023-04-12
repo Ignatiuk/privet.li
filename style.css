@@ -267,6 +267,15 @@ section:last-child {
   gap: 100px;
 }
 
+.contacts__link {
+  color: #5B594A;
+  text-decoration: underline;
+}
+
+.contacts__link:hover {
+  text-shadow: 0 0 1px #5B594A;
+}
+
 .footer {
   display: flex;
   flex-direction: column;
@@ -283,7 +292,7 @@ section:last-child {
   line-height: 61px;
   letter-spacing: 0.1em;
   color: #5B594A;
-  transition: all 1.4s ease;
+  transition: all 0.7s ease;
   cursor: default;
 }
 
