@@ -19,7 +19,7 @@ function onMenuClick() {
 
       menuLinks.classList.remove('--hiding')
       menuLinks.classList.add('--hidden')
-    }, 500)
+    }, 800)
   }
 }
 

@@ -79,7 +79,7 @@ section:last-child {
   line-height: 38px;
   letter-spacing: 0.05em;
   cursor: default;
-  transition: all 0.7s ease;
+  transition: all 0.8s ease;
 }
 
 .main-section__title:hover {
@@ -292,7 +292,7 @@ section:last-child {
   line-height: 61px;
   letter-spacing: 0.1em;
   color: #5B594A;
-  transition: all 0.7s ease;
+  transition: all 0.8s ease;
   cursor: default;
 }
 
@@ -348,11 +348,11 @@ section:last-child {
   gap: 30px;
   margin-right: 40px;
   padding-left: 4px;
-  animation: fadeInRight 0.5s ease;
+  animation: fadeInRight 0.8s ease;
 }
 
 .menu__links.--hiding {
-  animation: fadeOutLeft 0.5s ease;
+  animation: fadeOutLeft 0.8s ease;
 }
 
 .menu__links.--hidden {
@@ -452,7 +452,7 @@ section:last-child {
     margin-right: unset;
     margin-top: 16px;
     padding: 0;
-    transition: visibility 0s, opacity 0.5s linear;
+    transition: visibility 0s, opacity 0.8s linear;
   }
 
   .menu__link {
